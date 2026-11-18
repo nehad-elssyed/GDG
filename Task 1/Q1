@@ -1,0 +1,8 @@
+ Start
+Read degree
+If degree >=50 Then
+      Print "pass"
+Else
+Print "fail"
+End if
+End
