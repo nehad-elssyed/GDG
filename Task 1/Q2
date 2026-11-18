@@ -1,0 +1,31 @@
+ ابدا
+2 ابحث عن  رقم الجلوس ف القائمه
+3 لو كان موجود يسمح له بالدخول
+4 طب لو مش موجود لا يسمح له بالدخول
+5 انتهي
+
+Input  رقم جلوس وقائمه
+Output مسموح بالدخول أو غير مسموح بالدخول
+
+Cases
+Case 1 the number exists (T)
+Decision : student can enter
+Case 2 the number doesn't exist (F)
+Decision :student can't enter
+
+Start
+Read  seat number
+Read list
+If  seat number in list Then
+       Print "allowed to enter"
+   Else
+            Print"Not allowed to enter "
+    
+End if
+End
+
+Ex  لو رقم طالب 555642
+موجود ف [555642,233789]
+اذن مسموح له بالدخول
+لو رقم طالب 662004 مش موجود ف [555642,233789]
+اذن غير مسموح له بالدخول
