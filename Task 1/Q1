@@ -1,6 +1,8 @@
  Start
-Read degree
-If degree >=50 Then
+Read Grade
+If Grade < 0 or Grade > 100 Then
+Print "Invalid Grade"
+Else If Grade >=50 Then
       Print "pass"
 Else
 Print "fail"
